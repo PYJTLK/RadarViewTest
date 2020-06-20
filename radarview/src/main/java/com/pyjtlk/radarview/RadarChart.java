@@ -14,7 +14,6 @@ import android.util.AttributeSet;
 import android.util.Log;
 import android.view.View;
 import android.view.ViewTreeObserver;
-
 import java.util.ArrayList;
 
 /**
@@ -424,6 +423,7 @@ public class RadarChart extends View{
     protected void onDetachedFromWindow() {
         super.onDetachedFromWindow();
         mAttrAnimator.cancel();
+        mAttrAnimator.removeAllUpdateListeners();
     }
 
     /**

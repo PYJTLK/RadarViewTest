@@ -14,15 +14,21 @@
         android:layout_height="200dp"
         app:attributeCount="6"
         app:showWeb="true"
-        app:attributeLevel="8"
+        app:initLevel="3"
+        app:attributeLevel="6"
         app:contentColor="#A00A"
         app:lineColor="#A0A0"
-        app:animDuration="1000"
-        app:initLevel="4"
-        app:contentAlpha="100"/>
+        app:animDuration="500"/>
 
     <Button
         android:layout_width="100dp"
         android:layout_height="50dp"
-        android:onClick="onClicked"/>
+        android:onClick="onClicked"
+        android:text="test1"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:onClick="onClicked2"
+        android:text="test2"/>
 </LinearLayout>
