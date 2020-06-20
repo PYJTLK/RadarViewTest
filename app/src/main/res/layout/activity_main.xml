@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <com.pyjtlk.radarview.RadarChart
+        android:id="@+id/radarChart"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:attributeCount="6"
+        app:showWeb="true"
+        app:attributeLevel="8"
+        app:contentColor="#A00A"
+        app:lineColor="#A0A0"
+        app:animDuration="1000"
+        app:initLevel="4"
+        app:contentAlpha="100"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:onClick="onClicked"/>
+</LinearLayout>

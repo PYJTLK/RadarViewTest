@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RadarChart">
+        <attr name="attributeCount" format="integer"/>
+        <attr name="lineColor" format="color"/>
+        <attr name="lineWidth" format="dimension"/>
+        <attr name="contentColor" format="color"/>
+        <attr name="lineAlpha" format="integer"/>
+        <attr name="contentAlpha" format="integer"/>
+        <attr name="showWeb" format="boolean"/>
+        <attr name="attributeLevel" format="integer"/>
+        <attr name="initLevel" format="integer"/>
+        <attr name="animDuration" format="integer"/>
+    </declare-styleable>
+</resources>
