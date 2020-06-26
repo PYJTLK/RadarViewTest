@@ -227,7 +227,7 @@ public class RadarChart extends View{
 
         mLineRadius -= mLineWidth;
 
-        setMeasuredDimension(width,height);
+        setMeasuredDimension(MeasureSpec.makeMeasureSpec(width,widthMode),MeasureSpec.makeMeasureSpec(height,heightMode));
     }
 
     @Override
